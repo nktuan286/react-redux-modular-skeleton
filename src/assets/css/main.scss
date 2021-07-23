@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Muli;
+  src: url('../fonts/Muli.ttf');
+}
+
+body {
+  font-family: 'Muli';
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  font-weight: normal;
+}
