@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `yarn run generate:module YOUR_MODULE_NAME`
+
+Generates YOUR_MODULE_NAME into src/modules directory.
+
 ### `yarn start`
 
 Runs the app in the development mode.\
