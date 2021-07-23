@@ -4,7 +4,7 @@ set -e
 
 if [[ "$1" != "" ]]; then
     mkdir src/modules/$1
-    cp -r bin/sample/module/* src/modules/$1/
+    cp -r bin/samples/module/* src/modules/$1/
 else
     echo ERROR: Failed to supply module name
     exit 1

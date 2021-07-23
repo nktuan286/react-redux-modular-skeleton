@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import UserScreen from '@modules/user/screens';
+import User from '@modules/user';
 
 const Router = () => {
   return (
     <Switch>
-      <Route path="/" exact component={UserScreen} />
+      <Route path="/" exact component={User} />
     </Switch>
   );
 };
